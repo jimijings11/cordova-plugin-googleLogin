@@ -17,8 +17,16 @@ export interface GoogleLogin {
     /** Get the version of Cordova running on the device. */
     login(array:[string], onSuccess:(dict:Info) => void,
     onError:(message:string) => void):void;
+    trySilentLogin(array:[string], onSuccess:(dict:Info) => void,
+    onError:(message:string) => void):void;
+    logout(onSuccess:(dict:Info) => void,
+    onError:(message:string) => void):void;
     /** Indicates that Cordova initialize successfully. */
-    isAvailable():void;
+    isAvailable(onSuccess:(dict:Info) => void):void;
+    disconnect(onSuccess:(dict:Info) => void,
+    onError:(message:string) => void):void;
+    getSigningCertificateFingerprint(onSuccess:(dict:Info) => void,
+    onError:(message:string) => void):void;
 }
 
 interface Info{ 
