@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-googleLogin",
+  "version": "0.0.1",
+  "description": "Customize cordova-plugin-googleplus",
+  "cordova": {
+    "id": "cordova-plugin-googleLogin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimijings11/cordova-plugin-googleplus.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "jimijings11",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/jimijings11/cordova-plugin-googleplus/issues"
+  },
+  "homepage": "https://github.com/jimijings11/cordova-plugin-googleplus#readme"
+}
