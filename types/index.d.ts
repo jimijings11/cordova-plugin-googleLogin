@@ -1,6 +1,6 @@
 // Type definitions for cordova-plugin-loginGoogle 2.0
-// Project: https://github.com/jimijings11/cordova-plugin-loginGoogle
-// Definitions by: Jim Jings
+// Project:https://github.com/jimijings11/cordova-plugin-loginGoogle
+// Definitions by:Jim Jings
 //                 Tim Brust <https://github.com/jimijings11>
 
 
@@ -15,8 +15,21 @@ interface CordovaPlugins {
 
 export interface GoogleLogin {
     /** Get the version of Cordova running on the device. */
-    login(array:[string], onSuccess: (dict:Result) => void,
-    onError: (message: string) => void):void;
+    login(array:[string], onSuccess:(dict:Info) => void,
+    onError:(message:string) => void):void;
     /** Indicates that Cordova initialize successfully. */
     isAvailable():void;
+}
+
+interface Info{ 
+    email:string;
+    idToken:string;
+    serverAuthCode:string;
+    accessToken:string;
+    refreshToken:string;
+    userId:string;
+    displayName:string;
+    givenName  :string;
+    familyName :string;
+    imageUrl   :string;
 }
