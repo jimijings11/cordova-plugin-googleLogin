@@ -5,21 +5,21 @@ exports.isAvailable = function (success) {
 };
 
 exports.login = function (options, successCallback, errorCallback) {
-    exports.exec(successCallback, errorCallback, 'googleLogin', 'login', [options]);
+    exec(successCallback, errorCallback, 'googleLogin', 'login', [options]);
   };
   
   exports.trySilentLogin = function (options, successCallback, errorCallback) {
-    exports.exec(successCallback, errorCallback, 'googleLogin', 'trySilentLogin', [options]);
+    exec(successCallback, errorCallback, 'googleLogin', 'trySilentLogin', [options]);
   };
   
   exports.logout = function (successCallback, errorCallback) {
-    exports.exec(successCallback, errorCallback, 'googleLogin', 'logout', []);
+    exec(successCallback, errorCallback, 'googleLogin', 'logout', []);
   };
   
   exports.disconnect = function (successCallback, errorCallback) {
-    exports.exec(successCallback, errorCallback, 'googleLogin', 'disconnect', []);
+    exec(successCallback, errorCallback, 'googleLogin', 'disconnect', []);
   };
   
   exports.getSigningCertificateFingerprint = function (successCallback, errorCallback) {
-    exports.exec(successCallback, errorCallback, 'googleLogin', 'getSigningCertificateFingerprint', []);
+    exec(successCallback, errorCallback, 'googleLogin', 'getSigningCertificateFingerprint', []);
   };
