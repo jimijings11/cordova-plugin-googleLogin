@@ -6,8 +6,8 @@
 <author>jimijings11 thanks to Eddy Verbruggen</author>
 <license>MIT</license>
 <keywords>Google, Google SignIn, GoogleSignIn, Google Login, Login, OAuth, Identity, Authentication</keywords>
-<repo>https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git</repo>
-<issue>https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues</issue>
+<repo>https://github.com/jimijings11/cordova-plugin-googleLogin.git</repo>
+<issue>https://github.com/jimijings11/cordova-plugin-googleLogin/issues</issue>
 
 <engines>
     <engine name="cordova" version=">=7.1.0"/>
