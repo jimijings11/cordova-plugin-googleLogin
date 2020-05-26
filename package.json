@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimijings11/cordova-plugin-googleplus.git"
+    "url": "git+https://github.com/jimijings11/cordova-plugin-googleLogin.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -21,7 +21,7 @@
   "author": "jimijings11",
   "license": "mit",
   "bugs": {
-    "url": "https://github.com/jimijings11/cordova-plugin-googleplus/issues"
+    "url": "https://github.com/jimijings11/cordova-plugin-googleLogin/issues"
   },
-  "homepage": "https://github.com/jimijings11/cordova-plugin-googleplus#readme"
+  "homepage": "https://github.com/jimijings11/cordova-plugin-googleLogin#readme"
 }
