@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/jimijings11/cordova-plugin-googleLogin/issues"
   },
+  "types": "./types/index.d.ts",
   "homepage": "https://github.com/jimijings11/cordova-plugin-googleLogin#readme"
 }
