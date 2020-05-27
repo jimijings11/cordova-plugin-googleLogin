@@ -1,4 +1,4 @@
-package cordova-plugin-googleLogin;
+package nl.xservices.plugins;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
