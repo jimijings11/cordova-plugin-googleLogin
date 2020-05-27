@@ -15,7 +15,7 @@ interface CordovaPlugins {
 
 export interface GoogleLogin {
     /** Get the version of Cordova running on the device. */
-    login(array:[string], onSuccess:(dict:Info) => void,
+    login(option, onSuccess:(dict:Info) => void,
     onError:(message:string) => void):void;
     trySilentLogin(array:[string], onSuccess:(dict:Info) => void,
     onError:(message:string) => void):void;
@@ -29,7 +29,14 @@ export interface GoogleLogin {
     onError:(message:string) => void):void;
 }
 
-interface Info{ 
+interface LoginOption {
+    scopes: string;
+    webClientId: string;
+    offline: boolean;
+  }
+  
+
+interface Info { 
     email:string;
     idToken:string;
     serverAuthCode:string;
