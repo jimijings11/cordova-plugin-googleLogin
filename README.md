@@ -1,7 +1,6 @@
 # cordova-plugin-googleLogin
-Fork from https://github.com/EddyVerbruggen/cordova-plugin-googleplus
+Fork from and Docs based on: https://github.com/EddyVerbruggen/cordova-plugin-googleplus
 
-Docs based on [this] (https://github.com/EddyVerbruggen/cordova-plugin-googleplus)
 # Google Sign-In Cordova/PhoneGap Plugin
 
 > ⚠️ From plugin version 6.0.0 the minimum required cordova-ios version is 4.5.0. Need to use a lower cordova-ios version? Use plugin version 5.3.2 or lower.
